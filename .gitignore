@@ -2,10 +2,15 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyo
+*.pyd
 
 # Virtual environments
 venv/
+env/
 .env/
+.venv/
+ENV/
 .theatre/
 theatre/
 
@@ -14,20 +19,39 @@ Pipfile.lock
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
 # Jupyter runtime
 .jupyter/
 
 # VS Code
 .vscode/
+*.code-workspace
 
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Python cache & packaging
 .cache/
 .pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.egg-info/
+dist/
+build/
+*.egg
+
+# pip cache
+pip-log.txt
+pip-delete-this-directory.txt
 
 # Logs
 *.log
