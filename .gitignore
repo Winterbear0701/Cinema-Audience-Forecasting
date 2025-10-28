@@ -1,0 +1,56 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.theatre/
+theatre/
+
+# Pipenv
+Pipfile.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter runtime
+.jupyter/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache & packaging
+.cache/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Data files (common to ignore - adjust if you need to version data)
+dataset/*/*.csv
+
+# Add chace folder explicitly (user requested)
+chace/
+
+# Other
+*.pyc
+
+# Ignore previous outputs and submissions
+Cinema-Audiance/submission_*.csv
+
+# Git large file storage
+*.gitattributes
+
+# Ignore env-specific files
+.idea/
+*.sublime-workspace
+
+# Keep README, code, docs, and notebooks under version control
+!README.md
+!Cinema-Audiance/code/*.ipynb
