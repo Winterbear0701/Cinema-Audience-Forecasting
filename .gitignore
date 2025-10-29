@@ -78,3 +78,5 @@ Cinema-Audiance/submission_*.csv
 # Keep README, code, docs, and notebooks under version control
 !README.md
 !Cinema-Audiance/code/*.ipynb
+
+cin/
